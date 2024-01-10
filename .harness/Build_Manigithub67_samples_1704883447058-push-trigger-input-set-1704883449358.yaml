@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Manigithub67_samples_1704883447058-push-trigger-input-set
+  identifier: Build_Manigithub67_samples_1704883447058pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dotnetdemo
+  pipeline:
+    identifier: Build_Manigithub67_samples_1704883447058
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
