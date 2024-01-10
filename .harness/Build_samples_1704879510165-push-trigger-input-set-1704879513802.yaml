@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_samples_1704879510165-push-trigger-input-set
+  identifier: Build_samples_1704879510165pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: MyDotNetProject
+  pipeline:
+    identifier: Build_samples_1704879510165
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
