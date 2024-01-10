@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Manigithub67_samples_1704883447058-pr-trigger-input-set
+  identifier: Build_Manigithub67_samples_1704883447058prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dotnetdemo
+  pipeline:
+    identifier: Build_Manigithub67_samples_1704883447058
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
