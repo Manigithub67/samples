@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_samples_1704879510165-pr-trigger-input-set
+  identifier: Build_samples_1704879510165prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: MyDotNetProject
+  pipeline:
+    identifier: Build_samples_1704879510165
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
